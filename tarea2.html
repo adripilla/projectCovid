@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mi Página WEB</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>FECHA_ACTUALIZACION</th>
+                <th>ID_REGISTRO</th>
+                <th>ORIGEN</th>
+                <th>SECTOR</th>
+                <th>ENTIDAD_UM</th>
+                <th>SEXO</th>
+                <th>ENTIDAD_NAC</th>
+                <th>ENTIDAD_RES</th>
+                <th>MUNICIPIO_RES</th>
+                <th>TIPO_PACIENTE</th>
+                <th>FECHA_INGRESO</th>
+                <th>FECHA_SINTOMAS</th>
+                <th>FECHA_DEF</th>
+                <th>INTUBADO</th>
+                <th>NEUMONIA</th>
+                <th>EDAD</th>
+                <th>NACIONALIDAD</th>
+                <th>EMBARAZO</th>
+                <th>HABLA_LENGUA_INDIG</th>
+                <th>INDIGENA</th>
+                <th>DIABETES</th>
+                <th>EPOC</th>
+                <th>ASMA</th>
+                <th>INMUSUPR</th>
+                <th>HIPERTENSION</th>
+                <th>OTRA_COM</th>
+                <th>CARDIOVASCULAR</th>
+                <th>OBESIDAD</th>
+                <th>RENAL_CRONICA</th>
+                <th>TABAQUISMO</th>
+                <th>OTRO_CASO</th>
+                <th>TOMA_MUESTRA_LAB</th>
+                <th>RESULTADO_LAB</th>
+                <th>TOMA_MUESTRA_ANTIGENO</th>
+                <th>RESULTADO_ANTIGENO</th>
+                <th>CLASIFICACION_FINAL</th>
+                <th>MIGRANTE</th>
+                <th>PAIS_NACIONALIDAD</th>
+                <th>PAIS_ORIGEN</th>
+                <th>UCI</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-body">
+        </tbody>
+    </table>
+
+    <script>
+        // Cargar el archivo JSON
+        fetch('datos.jsonld')
+            .then(response => response.json())
+            .then(data => {
+                const tablaBody = document.getElementById('tabla-body');
+                data.forEach(item => {
+                    const row = document.createElement('tr');
+                    //falta agregar las demas columnas de datos.jsonld
+                    row.innerHTML = `<td>${item.FECHA_ACTUALIZACION}</td>
+                                    <td>${item.ID_REGISTRO}</td>
+                                    <td>${item.ORIGEN}</td>
+                                    <td>${item.SECTOR}</td>
+                                    <td>${item.ENTIDAD_UM}</td>
+                                    <td>${item.SEXO}</td>
+                                    <td>${item.ENTIDAD_NAC}</td>
+                                    <td>${item.ENTIDAD_RES}</td>
+                                    <td>${item.MUNICIPIO_RES}</td>
+                                    <td>${item.TIPO_PACIENTE}</td>
+                                    <td>${item.FECHA_INGRESO}</td>
+                                    <td>${item.FECHA_SINTOMAS}</td>
+                                    <td>${item.FECHA_DEF}</td>
+                                    <td>${item.INTUBADO}</td>
+                                    <td>${item.NEUMONIA}</td>
+                                    <td>${item.EDAD}</td>
+
+
+                                    `;
+                    tablaBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error(error));
+    </script>
+
+</body>
+</html>

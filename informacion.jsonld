@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Adrian",
+    "n_control": "20130774",
+    "dia": "03",
+    "mes": "03",
+    "anno": "2002",
+    "carrera": "Sistemas",
+    "promedio": 84
+  },
+  {
+    "nombre": "Andrea",
+    "n_control": "21130558",
+    "dia": "20",
+    "mes": "02",
+    "anno": "2002",
+    "carrera": "Sistemas",
+    "promedio": 91
+  },
+  {
+    "nombre": "Daniel",
+    "n_control": "C-20130558",
+    "dia": "20",
+    "mes": "10",
+    "anno": "2002",
+    "carrera": "Sistemas",
+    "promedio": 80
+  }
+
+]

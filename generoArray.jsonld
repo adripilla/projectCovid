@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "sexo": "http://schema.org/age",
+    "frecuencia": "http://schema.org/frequency"
+  },
+  "@graph": [
+    {
+      "sexo": "M",
+      "frecuencia": 595
+    },
+    {
+      "sexo": "F",
+      "frecuencia": 405
+    }
+  ]
+}

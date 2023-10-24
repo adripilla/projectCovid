@@ -1,0 +1,380 @@
+{
+  "@context": {
+    "edad": "http://schema.org/age",
+    "frecuencia": "http://schema.org/frequency"
+  },
+  "@graph": [
+    {
+      "edad": 0,
+      "frecuencia": 2
+    },
+    {
+      "edad": 1,
+      "frecuencia": 23
+    },
+    {
+      "edad": 2,
+      "frecuencia": 20
+    },
+    {
+      "edad": 3,
+      "frecuencia": 10
+    },
+    {
+      "edad": 4,
+      "frecuencia": 7
+    },
+    {
+      "edad": 5,
+      "frecuencia": 4
+    },
+    {
+      "edad": 6,
+      "frecuencia": 6
+    },
+    {
+      "edad": 7,
+      "frecuencia": 9
+    },
+    {
+      "edad": 8,
+      "frecuencia": 6
+    },
+    {
+      "edad": 9,
+      "frecuencia": 3
+    },
+    {
+      "edad": 10,
+      "frecuencia": 5
+    },
+    {
+      "edad": 11,
+      "frecuencia": 5
+    },
+    {
+      "edad": 12,
+      "frecuencia": 8
+    },
+    {
+      "edad": 13,
+      "frecuencia": 6
+    },
+    {
+      "edad": 14,
+      "frecuencia": 6
+    },
+    {
+      "edad": 15,
+      "frecuencia": 4
+    },
+    {
+      "edad": 16,
+      "frecuencia": 6
+    },
+    {
+      "edad": 17,
+      "frecuencia": 8
+    },
+    {
+      "edad": 18,
+      "frecuencia": 9
+    },
+    {
+      "edad": 19,
+      "frecuencia": 14
+    },
+    {
+      "edad": 20,
+      "frecuencia": 11
+    },
+    {
+      "edad": 21,
+      "frecuencia": 16
+    },
+    {
+      "edad": 22,
+      "frecuencia": 21
+    },
+    {
+      "edad": 23,
+      "frecuencia": 25
+    },
+    {
+      "edad": 24,
+      "frecuencia": 27
+    },
+    {
+      "edad": 25,
+      "frecuencia": 20
+    },
+    {
+      "edad": 26,
+      "frecuencia": 26
+    },
+    {
+      "edad": 27,
+      "frecuencia": 19
+    },
+    {
+      "edad": 28,
+      "frecuencia": 24
+    },
+    {
+      "edad": 29,
+      "frecuencia": 21
+    },
+    {
+      "edad": 30,
+      "frecuencia": 19
+    },
+    {
+      "edad": 31,
+      "frecuencia": 14
+    },
+    {
+      "edad": 32,
+      "frecuencia": 14
+    },
+    {
+      "edad": 33,
+      "frecuencia": 19
+    },
+    {
+      "edad": 34,
+      "frecuencia": 13
+    },
+    {
+      "edad": 35,
+      "frecuencia": 13
+    },
+    {
+      "edad": 36,
+      "frecuencia": 20
+    },
+    {
+      "edad": 37,
+      "frecuencia": 20
+    },
+    {
+      "edad": 38,
+      "frecuencia": 18
+    },
+    {
+      "edad": 39,
+      "frecuencia": 19
+    },
+    {
+      "edad": 40,
+      "frecuencia": 23
+    },
+    {
+      "edad": 41,
+      "frecuencia": 28
+    },
+    {
+      "edad": 42,
+      "frecuencia": 15
+    },
+    {
+      "edad": 43,
+      "frecuencia": 20
+    },
+    {
+      "edad": 44,
+      "frecuencia": 13
+    },
+    {
+      "edad": 45,
+      "frecuencia": 12
+    },
+    {
+      "edad": 46,
+      "frecuencia": 11
+    },
+    {
+      "edad": 47,
+      "frecuencia": 18
+    },
+    {
+      "edad": 48,
+      "frecuencia": 12
+    },
+    {
+      "edad": 49,
+      "frecuencia": 12
+    },
+    {
+      "edad": 50,
+      "frecuencia": 12
+    },
+    {
+      "edad": 51,
+      "frecuencia": 19
+    },
+    {
+      "edad": 52,
+      "frecuencia": 11
+    },
+    {
+      "edad": 53,
+      "frecuencia": 20
+    },
+    {
+      "edad": 54,
+      "frecuencia": 19
+    },
+    {
+      "edad": 55,
+      "frecuencia": 11
+    },
+    {
+      "edad": 56,
+      "frecuencia": 12
+    },
+    {
+      "edad": 57,
+      "frecuencia": 11
+    },
+    {
+      "edad": 58,
+      "frecuencia": 9
+    },
+    {
+      "edad": 59,
+      "frecuencia": 17
+    },
+    {
+      "edad": 60,
+      "frecuencia": 16
+    },
+    {
+      "edad": 61,
+      "frecuencia": 8
+    },
+    {
+      "edad": 62,
+      "frecuencia": 6
+    },
+    {
+      "edad": 63,
+      "frecuencia": 8
+    },
+    {
+      "edad": 64,
+      "frecuencia": 13
+    },
+    {
+      "edad": 65,
+      "frecuencia": 7
+    },
+    {
+      "edad": 66,
+      "frecuencia": 6
+    },
+    {
+      "edad": 67,
+      "frecuencia": 5
+    },
+    {
+      "edad": 68,
+      "frecuencia": 2
+    },
+    {
+      "edad": 69,
+      "frecuencia": 4
+    },
+    {
+      "edad": 70,
+      "frecuencia": 9
+    },
+    {
+      "edad": 71,
+      "frecuencia": 9
+    },
+    {
+      "edad": 72,
+      "frecuencia": 6
+    },
+    {
+      "edad": 73,
+      "frecuencia": 3
+    },
+    {
+      "edad": 74,
+      "frecuencia": 2
+    },
+    {
+      "edad": 75,
+      "frecuencia": 7
+    },
+    {
+      "edad": 76,
+      "frecuencia": 3
+    },
+    {
+      "edad": 77,
+      "frecuencia": 6
+    },
+    {
+      "edad": 78,
+      "frecuencia": 2
+    },
+    {
+      "edad": 79,
+      "frecuencia": 3
+    },
+    {
+      "edad": 80,
+      "frecuencia": 3
+    },
+    {
+      "edad": 81,
+      "frecuencia": 2
+    },
+    {
+      "edad": 82,
+      "frecuencia": 3
+    },
+    {
+      "edad": 83,
+      "frecuencia": 5
+    },
+    {
+      "edad": 84,
+      "frecuencia": 2
+    },
+    {
+      "edad": 85,
+      "frecuencia": 3
+    },
+    {
+      "edad": 86,
+      "frecuencia": 2
+    },
+    {
+      "edad": 89,
+      "frecuencia": 3
+    },
+    {
+      "edad": 90,
+      "frecuencia": 1
+    },
+    {
+      "edad": 91,
+      "frecuencia": 2
+    },
+    {
+      "edad": 92,
+      "frecuencia": 2
+    },
+    {
+      "edad": 93,
+      "frecuencia": 1
+    },
+    {
+      "edad": 99,
+      "frecuencia": 1
+    }
+  ]
+}
